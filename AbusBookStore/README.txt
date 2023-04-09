@@ -174,4 +174,4 @@ In line 30 I cahnged GetAll() to Getall() to solve error.
 
 1529
 Added a new folder in the Areas/View with the same name as the Controller
-and Added a new ‘Index’ view to the folder and modified the code from the Category Index View.txt file 
+and Added a new ‘Index’ view to the folder and modified the code from the Category Index View.txt file. 
