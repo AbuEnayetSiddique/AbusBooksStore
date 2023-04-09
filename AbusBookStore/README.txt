@@ -187,3 +187,7 @@ Added README.txt from completed previous part of the assignment part II,
 And added README.md file too.
 
 Modified Layout and Startup.cs
+
+1856
+Added bootstrap.css file (Theme Journal)
+Modified Layout.cshtml and LoginPartial.cshtml
