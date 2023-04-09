@@ -89,7 +89,7 @@ Deleted the Migration Folder.
 >>>>>>> 4b275c4 (Revert "Installed Nuget Packege")
 
 
-----------------------------------------------
+-----------------------------------------------------
 Assignment 02 Part II
 2023-03-24
 1551
@@ -175,3 +175,15 @@ In line 30 I cahnged GetAll() to Getall() to solve error.
 1529
 Added a new folder in the Areas/View with the same name as the Controller
 and Added a new ‘Index’ view to the folder and modified the code from the Category Index View.txt file. 
+
+
+-----------------------------------------------------
+Assignment 02 Part III
+2023-04-09
+1839
+Started Project again.
+My added 3 new projects are not going with my original project while commiting to Github.
+Added README.txt from completed previous part of the assignment part II,
+And added README.md file too.
+
+Modified Layout and Startup.cs
