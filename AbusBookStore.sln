@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbusBookStore", "AbusBookStore\AbusBookStore.csproj", "{23A010AF-A099-45D9-95E2-EC4F1A9BCCC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbusBooks.DataAccess", "AbusBooks.DataAccess\AbusBooks.DataAccess.csproj", "{976FD8AA-1D8F-4D44-B8B1-F027AE7B04BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbusBooks.Models", "AbusBooks.Models\AbusBooks.Models.csproj", "{624CDC1E-5491-4E1A-BB49-2143449B571D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbusBooks.Utility", "AbusBooks.Utility\AbusBooks.Utility.csproj", "{5D2D6004-626A-4FDF-96FE-3DB5D2592ADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{23A010AF-A099-45D9-95E2-EC4F1A9BCCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A010AF-A099-45D9-95E2-EC4F1A9BCCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A010AF-A099-45D9-95E2-EC4F1A9BCCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976FD8AA-1D8F-4D44-B8B1-F027AE7B04BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976FD8AA-1D8F-4D44-B8B1-F027AE7B04BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976FD8AA-1D8F-4D44-B8B1-F027AE7B04BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976FD8AA-1D8F-4D44-B8B1-F027AE7B04BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624CDC1E-5491-4E1A-BB49-2143449B571D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624CDC1E-5491-4E1A-BB49-2143449B571D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624CDC1E-5491-4E1A-BB49-2143449B571D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624CDC1E-5491-4E1A-BB49-2143449B571D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2D6004-626A-4FDF-96FE-3DB5D2592ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2D6004-626A-4FDF-96FE-3DB5D2592ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2D6004-626A-4FDF-96FE-3DB5D2592ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2D6004-626A-4FDF-96FE-3DB5D2592ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
