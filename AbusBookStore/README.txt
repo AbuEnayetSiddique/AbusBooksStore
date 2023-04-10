@@ -204,3 +204,8 @@ Installed-
 	Microsoft.EntityFrameworkCore.SqlServer version:3.1.32
 	and Nuget Packege
 Moved Model foleder, Edited Error.cshtml, ErrorViewModels.cs
+
+0146
+Added static class SD.cs, Added project references, Added Customer Area and modified.
+Moved HomeController.cs to Area, Copied and Edited _ViewImport and _ViewStart.cshtml.
+PART1 FINISHED...Projects ran properly.
