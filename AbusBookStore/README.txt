@@ -191,3 +191,6 @@ Modified Layout and Startup.cs
 1856
 Added bootstrap.css file (Theme Journal)
 Modified Layout.cshtml and LoginPartial.cshtml
+
+2250
+Modified Layout- Dropdown menu added
