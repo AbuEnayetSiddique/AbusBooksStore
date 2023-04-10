@@ -197,3 +197,10 @@ Modified Layout- Dropdown menu added
 
 0004
 Added 3 new Projects and moved Data folder
+
+0026
+Installed-
+	Microsoft.EntityFrameworkCore.Relational version: 3.1.32
+	Microsoft.EntityFrameworkCore.SqlServer version:3.1.32
+	and Nuget Packege
+Moved Model foleder, Edited Error.cshtml, ErrorViewModels.cs
