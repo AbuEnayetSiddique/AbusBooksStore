@@ -209,3 +209,8 @@ Moved Model foleder, Edited Error.cshtml, ErrorViewModels.cs
 Added static class SD.cs, Added project references, Added Customer Area and modified.
 Moved HomeController.cs to Area, Copied and Edited _ViewImport and _ViewStart.cshtml.
 PART1 FINISHED...Projects ran properly.
+
+2023-04-11
+1453
+Started doing Part II
+Added Migration- 20230411185002_AddDefaultIdentityMigration.cs
