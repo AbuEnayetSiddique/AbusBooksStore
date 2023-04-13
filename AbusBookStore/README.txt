@@ -214,3 +214,7 @@ PART1 FINISHED...Projects ran properly.
 1453
 Started doing Part II
 Added Migration- 20230411185002_AddDefaultIdentityMigration.cs
+
+2023-04-13
+0056
+Added Category.cs file
