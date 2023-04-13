@@ -1,4 +1,6 @@
-﻿using AbusBooks.DataAccess.Repository.IRepository;
+﻿using AbusBooks.DataAccess.Repository;
+using AbusBooks.DataAccess.Repository.IRepository;
+using AbusBooks.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -21,6 +23,24 @@ namespace AbusBookStore.Areas.Admin.Controllers
         {
             return View();
         }
+
+        public IActionResult Upsert(int? id)
+        {
+            Category category = new Category();
+            if (id == null)
+            {
+                //this is for create
+                return View(category);
+            }
+            category = _unitOfwork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category); //remember
+        }
+
+
 
         //APT calls here
         #region API CALLS

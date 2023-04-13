@@ -235,3 +235,8 @@ Modified Startup.cs
 0259
 Added CategoryController.cs and Index.cshtml file
 Modified _Layout.cshtml
+
+1526
+Modified CategoryController.cs
+and Updated Microsoft.AspNetCore.Identity.EntityFrameworkCore version 3.1.0 to 3.1.32
+	my database was not updating with version 3.1.0

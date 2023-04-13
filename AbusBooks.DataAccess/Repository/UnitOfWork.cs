@@ -31,5 +31,10 @@ namespace AbusBooks.DataAccess.Repository
         {
             _db.SaveChanges();
         }
+
+        public void save()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
