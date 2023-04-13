@@ -221,3 +221,6 @@ Added Category.cs file
 
 0132
 Added IRepository and Repository file and modified
+
+0148
+Added ICategoryRepository and CategoryRepository file and modified
