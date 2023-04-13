@@ -231,3 +231,7 @@ Added ISP.cs and SP.cs file and modified
 0204
 Added IUnitOfWork.cs and UnitOfWork.cs file and modified
 Modified Startup.cs
+
+0259
+Added CategoryController.cs and Index.cshtml file
+Modified _Layout.cshtml
