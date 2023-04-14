@@ -240,3 +240,8 @@ Modified _Layout.cshtml
 Modified CategoryController.cs
 and Updated Microsoft.AspNetCore.Identity.EntityFrameworkCore version 3.1.0 to 3.1.32
 	my database was not updating with version 3.1.0
+
+2023-04-14
+0105
+Added Index.cshtml and Upsert.cshtml in Views
+Added _CreateAndBackToListButton.cshtml and _EditAndBackToListButton.cshtml
