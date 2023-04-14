@@ -3,6 +3,8 @@ using AbusBooks.DataAccess.Repository.IRepository;
 using AbusBooks.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using AbusBooks.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,7 +46,7 @@ namespace AbusBookStore.Areas.Admin.Controllers
         }
 
         //Use HTTP POST to define the post-action method
-        [HttpPost]
+        /*[HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Product product)
         {
@@ -62,7 +64,7 @@ namespace AbusBookStore.Areas.Admin.Controllers
                 return RedirectToAction(nameof(Index)); //To see all the Categories
             }
             return View(product);
-        }
+        }*/
 
 
 
@@ -72,7 +74,7 @@ namespace AbusBookStore.Areas.Admin.Controllers
         public IActionResult GetAll()
         {
             //return NotFound();
-            var allObj = _unitOfWork.Product.GetAll();
+            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, Covertype");
             return Json(new { data = allObj });
         }
 

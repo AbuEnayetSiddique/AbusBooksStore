@@ -296,3 +296,8 @@ Added product.js file
 0553
 Added ProductVM.cs file to Models project
 And installed Microsoft.AspNetCore.MvcLViewFeatures package
+
+0607
+Modified the ProductController.cs
+Modified the API call to include the Category and CoverType properites
+Commented out the Upsert post method 
