@@ -7,6 +7,6 @@ namespace AbusBooks.DataAccess.Repository.IRepository
 {
     public interface ICoverTypeRepository : IRepository<CoverType>
     {
-        void Update(CoverType covertype);
+        void Update(CoverType coverType);
     }
 }

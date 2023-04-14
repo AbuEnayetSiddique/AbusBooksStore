@@ -263,4 +263,10 @@ Added ICoverTypeRepository interface and CoverTypeRepository class and modified
 Added CoverType to UnitOfWork and IUnitofWork
 And Updated the Database
 
+0228
+Added Cover Type to NavBar in _Layout.cshtml file
+Added CoverType Controller with all required Action Methods
+
+
+
 
