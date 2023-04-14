@@ -249,3 +249,5 @@ Added _CreateAndBackToListButton.cshtml and _EditAndBackToListButton.cshtml
 Added the API (Application Programming Interface) call for HTTPDelete in the CategoryController.cs
 Implemented the HTTPDelete with a delete method in category.js 
 Added the delete functionality in category.js 
+
+Added the Delete(url) function code to category.js file for Sweet Alert and Toaster notifications
