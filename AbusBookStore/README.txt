@@ -267,6 +267,9 @@ And Updated the Database
 Added Cover Type to NavBar in _Layout.cshtml file
 Added CoverType Controller with all required Action Methods
 
+0313
+Added Cover Type Index View to use DataTables
+Added Cover Type Upsert View takes care of creating and updating CoverType
 
 
 
