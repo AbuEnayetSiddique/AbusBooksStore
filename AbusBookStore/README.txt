@@ -257,3 +257,6 @@ STARTED WORKING ON PART 3
 Created Cover Type CRUD as I created for Category CRUD
 Added CoverType.cs in the Model’s folder with ID and Name property
 add-migration to add AddCoverTypeToDb
+
+0211
+Added ICoverTypeRepository interface and CoverTypeRepository class and modified
