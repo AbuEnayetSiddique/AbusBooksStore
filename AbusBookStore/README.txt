@@ -284,3 +284,5 @@ and updated database
 0358
 Added IProductTypeRepository.cs interface and ProductTypeRepository.cs class
 Modified ProductTypeRepository with new given code
+
+Modified IUnitOfWork.cs and UnitOfWork.cs file for Product
