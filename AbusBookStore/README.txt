@@ -292,3 +292,7 @@ Added Product Controller to perform the CRUD operations
 Added Index.cshtml and Upsert.cshtml for View
 Modified _Layout.cshtml
 Added product.js file
+
+0553
+Added ProductVM.cs file to Models project
+And installed Microsoft.AspNetCore.MvcLViewFeatures package
