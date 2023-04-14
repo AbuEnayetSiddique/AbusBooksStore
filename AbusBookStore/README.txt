@@ -245,3 +245,7 @@ and Updated Microsoft.AspNetCore.Identity.EntityFrameworkCore version 3.1.0 to 3
 0105
 Added Index.cshtml and Upsert.cshtml in Views
 Added _CreateAndBackToListButton.cshtml and _EditAndBackToListButton.cshtml
+
+Added the API (Application Programming Interface) call for HTTPDelete in the CategoryController.cs
+Implemented the HTTPDelete with a delete method in category.js 
+Added the delete functionality in category.js 

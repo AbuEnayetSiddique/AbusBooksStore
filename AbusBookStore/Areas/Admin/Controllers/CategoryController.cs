@@ -12,11 +12,11 @@ namespace AbusBookStore.Areas.Admin.Controllers
     [Area("Admin")]
     public class CategoryController : Controller
     {
-        private readonly IUnitOfWork _unitOfwork;
+        private readonly IUnitOfWork _unitOfWork;
 
         public CategoryController(IUnitOfWork unitOfWork)
         {
-            _unitOfwork = unitOfWork;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
@@ -32,7 +32,7 @@ namespace AbusBookStore.Areas.Admin.Controllers
                 //this is for create
                 return View(category);
             }
-            category = _unitOfwork.Category.Get(id.GetValueOrDefault());
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
             if (category == null)
             {
                 return NotFound();
@@ -49,13 +49,13 @@ namespace AbusBookStore.Areas.Admin.Controllers
             {
                 if (category.Id == 0)
                 {
-                    _unitOfwork.Category.Add(category);
+                    _unitOfWork.Category.Add(category);
                 }
                 else
                 {
-                    _unitOfwork.Category.Update(category);
+                    _unitOfWork.Category.Update(category);
                 }
-                _unitOfwork.Save();
+                _unitOfWork.Save();
                 return RedirectToAction(nameof(Index)); //To see all the Categories
             }
             return View(category);
@@ -69,8 +69,21 @@ namespace AbusBookStore.Areas.Admin.Controllers
         public IActionResult GetAll()
         {
             //return NotFound();
-            var allObj = _unitOfwork.Category.GetAll();
+            var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
+        }
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete Successful" });
         }
         #endregion
     }
