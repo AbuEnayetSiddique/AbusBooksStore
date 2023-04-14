@@ -251,3 +251,9 @@ Implemented the HTTPDelete with a delete method in category.js
 Added the delete functionality in category.js 
 
 Added the Delete(url) function code to category.js file for Sweet Alert and Toaster notifications
+
+0126
+STARTED WORKING ON PART 3
+Created Cover Type CRUD as I created for Category CRUD
+Added CoverType.cs in the Model’s folder with ID and Name property
+add-migration to add AddCoverTypeToDb
