@@ -301,3 +301,7 @@ And installed Microsoft.AspNetCore.MvcLViewFeatures package
 Modified the ProductController.cs
 Modified the API call to include the Category and CoverType properites
 Commented out the Upsert post method 
+
+0620
+Added Title / ISBN / Price / Author / Category properties to product.js file
+And added thoes to Index.xshtml as Table Header.
