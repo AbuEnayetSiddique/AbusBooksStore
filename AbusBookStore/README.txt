@@ -305,3 +305,6 @@ Commented out the Upsert post method
 0620
 Added Title / ISBN / Price / Author / Category properties to product.js file
 And added thoes to Index.xshtml as Table Header.
+
+1501
+Added JS code to index.cshtml file for Category, CoverType and Product
