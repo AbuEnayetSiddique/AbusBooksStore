@@ -256,6 +256,8 @@ Added the Delete(url) function code to category.js file for Sweet Alert and Toas
 STARTED WORKING ON PART 3
 Created Cover Type CRUD as I created for Category CRUD
 Added CoverType.cs in the Model’s folder with ID and Name property
+after migration got- 
+					20230414054805_AddCoverTypeToDb.cs
 
 0211
 Added ICoverTypeRepository interface and CoverTypeRepository class and modified
@@ -270,6 +272,11 @@ Added CoverType Controller with all required Action Methods
 0313
 Added Cover Type Index View to use DataTables
 Added Cover Type Upsert View takes care of creating and updating CoverType
+Added covertype.js file
 
-
-
+0337
+Added Product.cs file in Model Project
+Modified ApplicationDbContext.cs file for Product
+done add-migration and got-
+							20230414073647_AddProductToDb.cs file
+and updated database
