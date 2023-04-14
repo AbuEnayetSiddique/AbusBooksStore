@@ -286,3 +286,9 @@ Added IProductTypeRepository.cs interface and ProductTypeRepository.cs class
 Modified ProductTypeRepository with new given code
 
 Modified IUnitOfWork.cs and UnitOfWork.cs file for Product
+
+0531
+Added Product Controller to perform the CRUD operations
+Added Index.cshtml and Upsert.cshtml for View
+Modified _Layout.cshtml
+Added product.js file
