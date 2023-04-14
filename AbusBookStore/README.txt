@@ -280,3 +280,7 @@ Modified ApplicationDbContext.cs file for Product
 done add-migration and got-
 							20230414073647_AddProductToDb.cs file
 and updated database
+
+0358
+Added IProductTypeRepository.cs interface and ProductTypeRepository.cs class
+Modified ProductTypeRepository with new given code
