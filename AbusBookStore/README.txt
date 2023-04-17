@@ -308,3 +308,9 @@ And added thoes to Index.xshtml as Table Header.
 
 1501
 Added JS code to index.cshtml file for Category, CoverType and Product
+
+2023-04-17
+1902
+Modified Upsert.cshtml for CoverType and Product
+Added missing JavaScript code in _Layout.cshtml file
+Fixed error in UnitOfWork.cs
