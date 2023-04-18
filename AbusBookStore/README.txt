@@ -324,3 +324,6 @@ Added image/product folder
 
 0243
 Removed unnecessary JavaScript file in three Index.cshtml file from three of Category, Covertype and Product folder
+
+0352
+Modified category.js and product.js file
