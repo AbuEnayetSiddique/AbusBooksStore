@@ -314,3 +314,10 @@ Added JS code to index.cshtml file for Category, CoverType and Product
 Modified Upsert.cshtml for CoverType and Product
 Added missing JavaScript code in _Layout.cshtml file
 Fixed error in UnitOfWork.cs
+
+2023-04-18
+0240
+Modified ProductController.cs file
+Fixed some issue in UnitOfWork.cs and Upsert.cshtml file
+Added image/product folder
+	and added two photo
