@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace AbusBooks.DataAccess.Repository
 {
@@ -16,15 +15,18 @@ namespace AbusBooks.DataAccess.Repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
+            SP_Call = new SP_Call(_db);
             CoverType = new CoverTypeRepository(_db);
             Product = new ProductRepository(_db);
-            SP_Call = new SP_Call(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
+        public ISP_Call SP_Call { get; private set; }
         public ICoverTypeRepository CoverType { get; private set; }
         public IProductRepository Product { get; private set; }
-        public ISP_Call SP_Call { get; private set; }
+        //public ICategoryRepository Category => throw new NotImplementedException();
+
+        //public ISP_Call SP_Call => throw new NotImplementedException();
 
         public void Dispose()
         {
@@ -35,5 +37,9 @@ namespace AbusBooks.DataAccess.Repository
         {
             _db.SaveChanges();
         }
+        /*public void save()
+        {
+            throw new NotImplementedException();
+        }*/
     }
 }

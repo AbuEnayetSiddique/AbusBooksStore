@@ -330,3 +330,7 @@ Modified category.js and product.js file
 
 0431
 Tried to find error and fix with Product
+
+0545
+Added another save() method to slove the product problem but did not work
+Modified code

@@ -38,9 +38,10 @@ namespace AbusBookStore.Areas.Admin.Controllers
                 {
                     return NotFound();
                 }
-                return View(coverType);
-            }
+                return View(coverType); //remember
+        }
 
+            //Use HTTP POST to define the post-action method
             [HttpPost]
             [ValidateAntiForgeryToken]
             public IActionResult Upsert(CoverType coverType)
@@ -61,6 +62,7 @@ namespace AbusBookStore.Areas.Admin.Controllers
                 return View(coverType);
             }
 
+            //APT calls here
             #region API CALLS
 
             public IActionResult GetAll()

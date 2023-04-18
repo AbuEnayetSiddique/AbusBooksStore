@@ -130,6 +130,7 @@ namespace AbusBookStore.Areas.Admin.Controllers
             return View(productVM);
         }
 
+        //APT calls here
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
