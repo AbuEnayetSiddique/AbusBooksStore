@@ -321,3 +321,6 @@ Modified ProductController.cs file
 Fixed some issue in UnitOfWork.cs and Upsert.cshtml file
 Added image/product folder
 	and added two photo
+
+0243
+Removed unnecessary JavaScript file in three Index.cshtml file from three of Category, Covertype and Product folder
