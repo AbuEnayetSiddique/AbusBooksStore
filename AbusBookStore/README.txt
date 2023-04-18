@@ -327,3 +327,6 @@ Removed unnecessary JavaScript file in three Index.cshtml file from three of Cat
 
 0352
 Modified category.js and product.js file
+
+0431
+Tried to find error and fix with Product
