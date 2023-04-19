@@ -341,3 +341,10 @@ Modified ProductVM.cs, Product.cs, Index.cshtml, Upsert.cshtml
 Deleted Product database and added again
 	the migrtion file is now- 
 	20230418195811_AddProductToDb.cs
+
+2023-04-19
+1728
+Modified HomeController.cs to show product in the Home page
+Modified Index.cshtml file
+Fixed error for CoverType in Upsert.cshmtl file
+Added 4 Books in the product.
