@@ -88,6 +88,8 @@ namespace AbusBooks.DataAccess.Migrations
 
                     b.HasIndex("CategoryId");
 
+                    b.HasIndex("CoverTypeId");
+
                     b.ToTable("Products");
                 });
 
@@ -301,7 +303,7 @@ namespace AbusBooks.DataAccess.Migrations
 
                     b.HasOne("AbusBooks.Models.CoverType", "CoverType")
                         .WithMany()
-                        .HasForeignKey("CategoryId")
+                        .HasForeignKey("CoverTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

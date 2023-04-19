@@ -334,3 +334,10 @@ Tried to find error and fix with Product
 0545
 Added another save() method to slove the product problem but did not work
 Modified code
+
+2023-04-18
+1705
+Modified ProductVM.cs, Product.cs, Index.cshtml, Upsert.cshtml
+Deleted Product database and added again
+	the migrtion file is now- 
+	20230418195811_AddProductToDb.cs

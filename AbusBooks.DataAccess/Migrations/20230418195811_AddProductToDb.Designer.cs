@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AbusBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230414073647_AddProductToDb")]
+    [Migration("20230418195811_AddProductToDb")]
     partial class AddProductToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -89,6 +89,8 @@ namespace AbusBooks.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("CoverTypeId");
 
                     b.ToTable("Products");
                 });
@@ -303,7 +305,7 @@ namespace AbusBooks.DataAccess.Migrations
 
                     b.HasOne("AbusBooks.Models.CoverType", "CoverType")
                         .WithMany()
-                        .HasForeignKey("CategoryId")
+                        .HasForeignKey("CoverTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
