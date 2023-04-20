@@ -341,6 +341,7 @@ Modified ProductVM.cs, Product.cs, Index.cshtml, Upsert.cshtml
 Deleted Product database and added again
 	the migrtion file is now- 
 	20230418195811_AddProductToDb.cs
+Had problem with ListPrice. So, I changed table display output from ListPrice to Description. 
 
 2023-04-19
 1728
